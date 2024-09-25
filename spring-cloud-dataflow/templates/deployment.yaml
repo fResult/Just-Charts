@@ -4,9 +4,13 @@ metadata:
   creationTimestamp: null
   labels:
     app: spring-cloud-dataflow
-  name: spring-cloud-dataflow
+    release: {{ .Release.Name }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    chartApiVersion: {{ .Chart.APIVersion }}
+    appVersion: {{ .Chart.AppVersion }}
+  name: {{ .Release.Name }}
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: spring-cloud-dataflow
