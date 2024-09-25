@@ -3,9 +3,9 @@ entries:
   spring-cloud-dataflow:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-26T02:26:58.998979+07:00"
+    created: "2024-09-26T02:49:12.789747+07:00"
     description: A Helm chart for Kubernetes
-    digest: 159102134c7d26171f4398243d0b9f6bdc2602839ed6aa4af3eec8a48cef4c13
+    digest: f5cee8c6a08126ff525461365ffd3a1dd81149d235885b0a6c6a8d6d029a5da5
     home: https://github.com/fResult
     maintainers:
     - email: styxmaz@gmail.com
@@ -15,9 +15,26 @@ entries:
     name: spring-cloud-dataflow
     sources:
     - https://github.com/fResult/just-charts
-    - https://github.com/fResult/helm-charts
     type: application
     urls:
-    - https://fresult.github.io/helm-charts/packages/spring-cloud-dataflow-0.1.0.tgz
+    - https://fresult.github.io/just-charts/packages/spring-cloud-dataflow-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-26T02:49:12.78932+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 0cd1e84a38e6d86976d6823a97e8cc5615bc93a30028e346244eaa0da6060389
+    home: https://github.com/fResult
+    maintainers:
+    - email: styxmaz@gmail.com
+      name: fResult
+    - email: email@example.com
+      name: New Maintainer
+    name: spring-cloud-dataflow
+    sources:
+    - https://github.com/fResult/just-charts
+    type: application
+    urls:
+    - https://fresult.github.io/just-charts/packages/spring-cloud-dataflow-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-26T02:26:58.998177+07:00"
+generated: "2024-09-26T02:49:12.788489+07:00"
